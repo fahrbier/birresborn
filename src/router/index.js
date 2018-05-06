@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
+import 'jquery/dist/jquery.min.js'
 import HelloWorld from '@/views/HelloWorld'
 import Vereine from '@/views/Vereine'
 

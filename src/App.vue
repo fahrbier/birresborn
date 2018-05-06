@@ -43,7 +43,14 @@
 
 <script>
 export default {
-  name: 'App'
+  name: 'App',
+  created: function () {
+    // var self = this;
+    console.log('ready')
+    $.get('http://localhost:5000/vereine', function (response, status) {
+      console.log(response.data)
+    })
+  }
 }
 </script>
 
